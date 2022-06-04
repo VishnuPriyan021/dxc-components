@@ -1,12 +1,15 @@
 {
-  "name": "dxc-components",
+  "name": "@datay/dxc-components",
+"private": false,
+"repository": "github.com:<your-gb-username>/dxc-components",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "main": "dist/app.e7e75843.js",
+"unpkg": "dist/chunk-vendors.13c93b3a.js",
   "dependencies": {
     "core-js": "^3.8.3",
     "vue": "^3.2.13"
